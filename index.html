@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Tags Exercise</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="/imgs/favicon.gif" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- 
+        A header typically contains a group of introductory or navigational aids,
+        It typically contains a logo and sometimes a search field 
+    -->
+    <header>
+      <div class="logo">
+        <img src="imgs/leafLogo.png" alt="company leaf logo" />
+      </div>
+
+      <nav>
+        <!-- Container for navigation links -->
+        <ul>
+          <li><a href="https://www.mindfactory.de/Hardware.html" target="_blank">Hardware</a></li>
+          <li><a href="https://www.mindfactory.de/Software.html" target="_blank">Software</a></li>
+          <li><a href="https://www.mindfactory.de/info_center.php/icID/30" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main specifies main content of the document -->
+    <main>
+      <!-- the main is the where you would usually put your h1 -->
+      <h1>Cutting-edge technology</h1>
+
+      <!-- section represent standalone content. It must contain a heading -->
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          The development of data management and analysis systems largely
+          benefits from the advancement of the hardware and software
+          technologies. Hardware and software are the two major elements that
+          constitute a computing system. The software performance could directly
+          benefit from the advancement of hardware, but it is also limited by
+          the characteristics of the hardware. Therefore, there has to be
+          trade-offs in the design of software frameworks and systems. In the
+          meantime, the demands for software performance also promote the
+          advancements and innovations of hardware technologies. For data
+          management and analysis systems, the hardware determines the
+          performance limit of data access and query processing. To fully
+          utilize the hardware, the software should optimize the design of
+          algorithms and data structure according to the hardware. The
+          traditional compute-intensive applications and recent data-intensive
+          applications both have placed high demands on hardware performance
+          such as access latency, capacity, bandwidth, energy consumption and
+          cost performance. Under the various application workloads, the
+          traditional data management and analysis techniques are facing
+          unprecedented challenges. Essentially, the challenges posed by big
+          data are caused by the contradiction where the existing data
+          processing infrastructures are incapable of meeting the diverse
+          demands in data processing.
+        </p>
+      </section>
+
+      <!-- SECTION WITH ARTICLES -->
+      <section class="hardware-section">
+        <h2>Take a look at these Hardware</h2>
+        <!-- 
+                Article represents a self-contained composition in a document  intended to be reusable
+            Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+            -->
+
+        <article class="cards1">
+          <img src="imgs/hardware.png" alt="hardware img" />
+          <h3>Did you know ?</h3>
+          <p>
+            Data processing infrastructure generally includes the underlying
+            hardware environment and the upper software system. The design
+            principles, architecture selection, core functions, strategy mode,
+            and optimization techniques of the upper software system largely
+            depend on the computer hardware. Today’s hardware technologies and
+            environments are undergoing dramatic changes. Specifically, the
+            advent of high-performance processors and hardware accelerators, new
+            nonvolatile memory (NVM), and a high-speed network are rapidly
+            changing the base support for traditional data management and
+            analysis systems. These new hardware is expected to break through
+            the architecture of the entire computer system and convert the
+            assumptions of the upper software. They also require that the
+            architecture of data management and analysis software and related
+            technologies have hardware awareness.
+          </p>
+        </article>
+        <article class="cards2">
+          <img src="/imgs/hardware2.jpg" alt="hardware img" />
+          <h3>Interesting facts</h3>
+          <p>
+            In recent years, storage, processor, and network technologies have
+            made a great breakthrough. As shown in Fig. 1, a growing set of new
+            hardware, architecture, and features are becoming the foundation of
+            the future computing platforms. The current trends indicate that
+            these techniques are significantly changing the underlying
+            environment of traditional data management and analysis systems,
+            including high-performance processors and hardware accelerators,
+            NVM, RDMA-capable (remote direct memory access) networks.
+            Significantly, the ongoing underlying environments, marked by
+            heterogeneous multi-core architecture and hybrid storage hierarchy,
+            make the already complicated software design space become more
+            sophisticated
+          </p>
+       
+      </section>
+
+      <section class="aside-section">
+        <p>
+            Find out who your competitors are and what they know before you enter a new market. Arm yourself with the data and analysis on hundreds of thousands of companies globally. Measure the addressable market with 10-year projections by country, including subscriber growth and penetration. Evaluate the vendor-level adoption rates for technology within a specific geography.
+        </p>
+
+        <!-- 
+                Aside represents a portion of the document whose content is only indirectly related to the main one ( sort of like a side note "your trial version is ending soon" etc..)
+            -->
+
+        <aside>
+          <h4>Facts</h4>
+          <p>
+            KPMG reports that 100% of enterprises that have put a low-code platform into place have reported a positive ROI.
+
+They also say that the number of business executives who list this type of development as their most important automation investment has nearly tripled since the pandemic began.
+
+Forrester predicted that 75% of all app development would use these types of platforms in 2021. That’s an increase of 31% over 2019.
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <!-- A footer typically contains information about its section such as who wrote it, links to related documents, copyright data, and the like. -->
+    <footer class="footer">
+      <img src="./imgs/Logos/1818.gif" alt="facebook" title="facebook">
+      <img src="./imgs/Logos/563.gif" alt="twitter" title="twitter">
+      <img src="./imgs/Logos/asusrog-rainbow.gif" alt="youtube" title="youtube">
+      
+    </footer>
+  </body>
+</html>
